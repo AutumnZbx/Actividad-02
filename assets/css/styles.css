@@ -1,0 +1,77 @@
+.contenido
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: rgb(27, 27, 27);
+    width: 20%;
+    height: 55rem;
+
+}
+
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.menu ul li:hover{
+    cursor: pointer;
+    color: rgb(167, 167, 110);
+    transition: .3s ease-in;
+}
+
+.texto-derecho{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.celeste{
+    background-color: cornflowerblue;
+}
+
+.amarillo{
+    background-color: yellow;
+
+}
+
+.naranjo{
+    background-color: orange;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.altura{
+    height: 13.75rem;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+.texto-centro{
+    text-align: center;
+}
+
+
